@@ -1,0 +1,72 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(255, 255, 151);
+  }
+  .head {
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 2.5em;
+    margin: 0%;
+    padding: 0%;
+    padding: 15px;
+    background-color: rgb(24, 102, 21);
+    text-align: center;
+    color: aliceblue;
+  }
+  .searchBox {
+    padding: 20px;
+    text-align: center;
+  }
+  .box1 {
+    font-size: 18px;
+    background-color: aquamarine;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    appearance: none;
+    outline: none;
+  }
+  .box2 {
+    font-size: 18px;
+    background-color:aquamarine;
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    appearance: none;
+    outline: none;
+  }
+  .container {
+    font-size: 15px;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 360px;
+    justify-content: center;
+  }
+  .mainDiv {
+    background-color:aquamarine;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 20px;
+  }
+  .anotherDiv {
+    background-color:aquamarine;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 20px;
+  }
+  
